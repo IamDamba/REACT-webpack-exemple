@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "iamdamba <iamdamba720@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve"
+  },
   "devDependencies": {
     "ts-loader": "^9.2.8",
     "typescript": "^4.6.3",
